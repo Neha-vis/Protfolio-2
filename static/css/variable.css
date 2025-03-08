@@ -140,3 +140,6 @@ p b {
 .section {
   padding: 100px 0;
 }
+button {
+  box-shadow: none !important;
+}
