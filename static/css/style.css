@@ -1,5 +1,5 @@
 @import url(./variable.css);
-/* header */
+/* header  css start*/
 .header {
   padding: 10px 0;
   position: sticky;
@@ -74,7 +74,9 @@
   background-color: var(--primary);
   color: var(--light);
 }
-/* section */
+/* header css closed */
+
+/* section hero start*/
 
 .hero {
   padding: 120px 0px;
@@ -223,6 +225,7 @@
 .work a i {
   margin-left: 10px;
 }
+
 /* technology */
 .technology {
   padding: 120px 0;
@@ -236,6 +239,9 @@
   height: 100%;
   border: 2px solid var(--dark-alt);
 }
+
+/* section end */
+
 /* footer */
 .footer-section .footer {
   margin-top: 20px;
@@ -250,11 +256,11 @@
 
   color: var(--light-alt);
 }
-.footer-section .footer .text1 {
+.footer-section .footer .copyright {
   display: flex;
   justify-content: end;
 }
-.footer-section .footer .text1 p {
+.footer-section .footer .copyright p {
   font-size: 20px;
   color: var(--light-alt);
 }
@@ -273,8 +279,9 @@
   word-spacing: 10px;
   line-height: 4;
 }
+/* footer end */
 
-/* about page */
+/* about page css */
 
 .about {
   padding: 120px 0;
@@ -363,6 +370,8 @@
   padding-bottom: 0;
   margin-bottom: 0;
 }
+/* about css end */
+
 /* projects */
 
 .table {
@@ -414,7 +423,8 @@
   font-size: 1.2rem;
   vertical-align: middle;
 }
-/* contact */
+
+/* contact  page css*/
 .contact {
   height: calc(100vh - 100px);
   display: flex;
@@ -428,8 +438,13 @@
   flex-direction: column;
   gap: 20px;
 }
+.contact .form-control {
+  box-shadow: none;
+  border: 1px solid var(--primary);
+  color: var(--light);
+}
 .contact form input {
-  border: 1px solid #495057;
+  border: 1px solid var(--dark-alt);
 }
 .contact .info {
   width: 100%;
@@ -453,6 +468,7 @@
   text-decoration: none;
   color: var(--light);
 }
+
 /* about ideas project css */
 .ideas {
   padding: 100px 0;
