@@ -60,65 +60,80 @@
       </nav>
     </header>
     <!-- contact -->
-    <section class="contact">
+    <section class="section contact">
       <div class="container">
-        <div class="row">
+        <div class="row g-5">
           <div class="col-md-6">
-            <h2 class="text-center text-primary">Get In Touch</h2>
-            <p class="text-light-alt fs-4">
-              Feel free to reach out to me for any questions, inquiries, or just
-              to say hi.
-            </p>
-          </div>
-          <div class="col-md-6">
-            <h2 class="text-center">Contact Me</h2>
-            <form action="#" method="POST">
+            <form>
               <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
+                <label for="exampleusername" class="form-label fs-5"
+                  >Name</label
+                >
                 <input
                   type="text"
-                  class="form-control"
-                  id="name"
-                  name="name"
-                  required
+                  class="form-control bg-dark p-2 pb-2"
+                  id="exampleusername"
                 />
               </div>
               <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
+                <label for="exampleInputEmail1" class="form-label fs-5"
+                  >Email address</label
+                >
                 <input
                   type="email"
-                  class="form-control"
-                  id="email"
-                  name="email"
-                  required
+                  class="form-control bg-dark p-2"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
                 />
+                <div id="emailHelp" class="form-text text-light-alt">
+                  We'll never share your email with anyone else.
+                </div>
               </div>
               <div class="mb-3">
-                <label for="subject" class="form-label">Subject</label>
+                <label for="exampleInputPassword1" class="form-label fs-5"
+                  >Password</label
+                >
                 <input
-                  type="text"
-                  class="form-control"
-                  id="subject"
-                  name="subject"
-                  required
+                  type="password"
+                  class="form-control bg-dark p-2 pb-2"
+                  id="exampleInputPassword1"
                 />
               </div>
-              <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea
-                  class="form-control"
-                  id="message"
-                  name="message"
-                  rows="5"
-                  required
-                ></textarea>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label fs-5" for="exampleCheck1"
+                  >Check me out</label
+                >
+              </div>
+              <div class="text-start mt-5">
+                <a class="button text-center" href="#" role="button">
+                  <span> Submit</span>
+                </a>
               </div>
             </form>
-            <!-- button -->
-            <div class="text-center">
-              <button type="submit" class="button">
-                <span>Submit</span>
-              </button>
+          </div>
+          <div class="col-md-6" data-aos="fade-up">
+            <h1 class="ps-5 pb-5">Contact Detail</h1>
+            <div class="info ps-5">
+              <div class="info-item">
+                <p><i class="fal fa-envelope pe-4"></i> Email:</p>
+                <a href="mailto:jyoti@example.com">neha@example.com</a>
+              </div>
+              <div class="info-item">
+                <p><i class="fal fa-phone pe-4"></i> Phone:</p>
+                <a href="tel:+919999999999">+91 9999999999</a>
+              </div>
+              <div class="info-item">
+                <p><i class="fal fa-address-book pe-4"></i>Address:</p>
+                <p>
+                  123 Street, City,Lorem ipsum dolor sit amet, consectetur
+                  adipisicing elit. Velit praesentium eos, sunt unde earum
+                </p>
+              </div>
             </div>
           </div>
         </div>
